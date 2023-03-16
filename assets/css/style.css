@@ -1,0 +1,582 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wappter {
+
+    height: auto;
+    width: 100%;
+
+}
+
+.color_red {
+    color: #a73340;
+}
+
+.clear {
+    clear: both;
+}
+
+.pd-28 {
+    padding: 0px 28px 0px 28px;
+}
+
+/* main */
+.main {
+    margin-top: 33px;
+    width: 80%;
+    height: 100%;
+    float: right;
+}
+
+
+.main-slider {
+
+    margin-bottom: -2px;
+}
+
+.cart_modal-main-none {
+    display: none;
+}
+
+/*header */
+.header {
+    width: 100%;
+    height: 40px;
+    background: black;
+    color: #ffffff;
+    text-align: right;
+    font-size: 13px;
+    line-height: 2.4em;
+    z-index: 40;
+    position: fixed;
+
+}
+
+/* logo */
+.logo-header {
+    font-size: 20px;
+    color: #fff;
+    line-height: 40px;
+    float: left;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* đăng nhập - đăng xuất  */
+.account-links {
+    display: inline-block;
+    font-size: 15px;
+}
+
+.account-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.account-links a:hover {
+    opacity: 0.75;
+    color: rgb(216, 85, 85);
+}
+
+.account-links #regist::after {
+    content: "";
+    border-right: 1px solid #333;
+    padding-left: 20px;
+
+}
+
+/* icon giỏ hàng */
+.cart-shopping {
+    float: right;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+a.cart-shopping.pd-28 {
+    text-decoration: none;
+    color: white;
+}
+
+.cart-shopping i:hover {
+    opacity: 0.75;
+    cursor: pointer;
+    color: rgb(216, 85, 85);
+}
+
+/* tìm kiếm */
+.icon-header {
+    padding: 10px 28px 0px 28px;
+    font-size: 15px;
+    cursor: pointer;
+    display: inline-block;
+
+}
+
+.icon-header:hover {
+    opacity: 0.8;
+    color: rgb(216, 85, 85);
+}
+
+
+/* phần main sidebar */
+.sidebar {
+    margin-top: 33px;
+    padding-top: 20px;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    background: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.sidebar .header-slb {
+
+    margin: 40px;
+}
+
+.header-slb:hover {
+    cursor: pointer;
+}
+
+.sidebar ul {
+    margin-top: 8px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.gachchan {
+
+    display: block;
+    margin: 0 8px;
+    padding: 12px 0;
+    color: #000000;
+    text-decoration: none;
+    position: relative;
+
+}
+
+.gachchan::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    transform: scale(0);
+    background-color: black;
+    bottom: 0;
+    left: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.gachchan:hover::after {
+    transform: scale(1);
+}
+
+
+
+/* Phần  */
+
+.main-content {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    background: rgb(255, 255, 255);
+}
+
+.content-section {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a.section-sub-heading {
+    text-decoration: none;
+    color: black;
+}
+
+.section-sub-heading:hover {
+    opacity: 0.75;
+    cursor: pointer;
+    color: #a73340;
+
+}
+
+.main-content-1 {
+    display: flex;
+}
+
+.New-Arrivals {
+    padding: 0;
+    margin: 4px;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+}
+
+.New-Arrivals:hover {
+    opacity: 0.7;
+
+}
+
+.New-Arrivals li {
+    width: 100%;
+    display: block;
+
+}
+
+.New-Arrivals li a {
+    text-decoration: none;
+}
+
+.New-Arrivals li img {
+    width: 100%;
+}
+
+
+#phuonganh {
+    margin: 30px 0;
+}
+
+.cangiua {
+    padding: 6px;
+}
+
+.phuonganhheader {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.journal {
+    display: flex;
+}
+
+.journal-item {
+    margin: 6px;
+    width: 33.33333%;
+}
+
+.journal-body p {
+    margin: 24px 0;
+    color: #5d5d60;
+}
+
+.journal-body a {
+    color: #000000;
+    text-decoration: none;
+
+}
+
+.journal-body a:hover {
+    opacity: 0.75;
+    text-decoration: underline
+}
+
+/* kết thúc phần code của phuwownh anh */
+/* Phần css của đạt tb */
+.one {
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f5;
+    font-size: 14px;
+    display: flex;
+}
+
+.one-1 {
+    width: 25%;
+    height: auto;
+    margin: 5px;
+    float: left;
+}
+
+.one-1 h4 {
+    margin-bottom: 0;
+}
+
+.one12 {
+    color: #5d5d60;
+    line-height: 1.2;
+}
+
+.one13 a {
+    color: #5d5d60;
+    line-height: 1.2;
+
+}
+
+.one-footer a img {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.one-footer1 a img {
+    margin-top: 10px;
+    margin-right: 300px;
+    width: 35%;
+    height: 35%;
+}
+
+/* kết thúc code của đạt tb */
+
+/* Phần tìm kiếm giỏ hàng  */
+/* Phan tim kiem nut search*/
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.search-them-modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    text-transform: uppercase;
+    display: none;
+    animation: fadeIn linear 0.1s;
+}
+
+.search_modal {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    font-size: 20px;
+    width: 300px;
+    height: 100%;
+    padding: 40px 50px 0 50px;
+    cursor: default;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    background: rgb(255, 255, 255);
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform linear 0.4s, opacity linear 0.4s;
+    z-index: 41;
+}
+
+.search_modal-header {
+    display: flex;
+    margin-left: -10px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.search_modal-icon-btn {
+    margin-right: -15px;
+    margin-top: 45px;
+}
+
+.search_modal-input {
+    font-size: 15px;
+    width: 100%;
+    height: 55px;
+    margin-top: 40px;
+    margin-bottom: 24px;
+    padding-left: 16px;
+    background: rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.search_modal_btn {
+    font-size: 16px;
+    width: 107%;
+    padding: 10px;
+    color: white;
+    float: left;
+    text-align: center;
+    background: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.check-timkiem-css:checked~.search-them-modal {
+    display: block;
+}
+
+.check-timkiem-css:checked~.search_modal {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.check-timkiem-css {
+    display: none;
+}
+
+/* Phần giỏ hàng */
+.cart-them-modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    text-transform: uppercase;
+    display: none;
+}
+
+.cart_modal {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    font-size: 20px;
+    width: 300px;
+    height: 100%;
+    padding: 40px 50px 0 50px;
+    cursor: default;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    background: rgb(255, 255, 255);
+    transform: translateX(100%);
+    opacity: 0;
+    transform-origin: top right;
+    transition: transform linear 0.4s, opacity linear 0.4s;
+    z-index: 41;
+}
+
+.cart_modal-main {
+    font-size: 12px;
+    margin: 40px 0 20px 0;
+    width: 100%;
+    color: #666;
+    text-align: center;
+}
+
+.cart_modal--btn-footer {
+    font-size: 12px;
+    margin: 16px 0;
+    width: 100%;
+    color: #666;
+    text-align: center;
+    display: inline-block
+}
+
+.cart_modal--btn {
+    width: calc(100% + 5px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart_modal--btn a {
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+    background: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.cart_modal--btn a:hover {
+    opacity: 0.75;
+    color: #a73340;
+    ;
+}
+
+.check-giohang-css:checked~.cart-them-modal {
+    display: block;
+}
+
+.check-giohang-css:checked~.cart_modal {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.check-giohang-css {
+    display: none;
+}
+
+/* Phần giỏ hàng có hàng */
+.cart_giohang-sp {
+    display: flex;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 2px;
+}
+
+.cart-giohangsp-icon-close {
+    margin-top: 3px;
+}
+
+.cart_giohang-sp img {
+    width: 85px;
+    border: 1px solid #ededed;
+    margin: 2px;
+    max-width: none;
+}
+
+.cart_giohang-sp1 {
+    padding: 10px 0;
+    position: relative;
+    width: 80%;
+
+}
+
+.cart_giohang-sp1 p {
+    width: 100%;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.sum-money_modal {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/*  */
+.quanlymenu {
+    padding-top: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-left: 20%;
+}
+
+.lietkesp {
+    width: 100%;
+    height: auto;
+}
+
+.lietkesp th {
+    border: 1px solid black;
+}
+
+.lietkesp a {
+    text-decoration: none;
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.lietkesp a:hover {
+    opacity: 0.75;
+    color: red;
+}
+
+a.inputdonhang {
+    background: white;
+    padding: 0;
+    color: chocolate;
+    text-transform: lowercase;
+}
+
+.header_lietke {
+    background: #ccc;
+}

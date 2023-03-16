@@ -1,0 +1,94 @@
+.img_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.text_center {
+    text-align: center;
+}
+.blog{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.blog_chinhsach{
+    padding-top: 20px;
+}
+.blog_chinhsach-formsize{
+    font-size: 18px;
+}
+.magin-26-blog{
+    margin-left: 46px;
+}
+.blog_main{
+    margin: 60px;
+    text-align: center;
+}
+.blog_header {
+    display: flex;
+    margin: 2em 0px 13px 0px;
+    font-size: 12.9px;
+    text-decoration: none;
+    color: black;
+}
+.blog_header--icon {
+    padding-right: 8px;
+}
+.blog_header:hover {
+    opacity: 0.75;
+}
+.blog_textindent {
+    text-indent: 30px;
+}
+.blog p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.2;
+}
+.blog h4 {
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.blog_footer {
+    margin: 150px 0 60px 0 ;
+}
+.blog_footer p {
+    margin-left: 30px;
+    line-height: 1.4;
+}
+.blog_footer p a {
+    text-decoration: none;
+}
+.blog_footer p a:hover {
+    opacity: 0.75;
+}
+.blog_footer-next {
+    float: right;
+    margin: 60px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.blog_footer-next:hover{
+    opacity: 0.75;
+    color:#a73340 ;
+}
+.blog_footer-out{
+    padding-top: 50px;
+    font-size: 20px;
+    color: black;
+}
+.blog_footer-out a{
+    color: black;
+    text-decoration: none;
+}
+.blog_footer-out a:hover{
+    opacity: 0.75;
+    color:#a73340 ;
+}
+.blog_footer-end{
+    margin: 24px;
+}

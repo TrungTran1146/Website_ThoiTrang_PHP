@@ -1,0 +1,127 @@
+#product{
+	padding: 50px 0px;
+}
+#product #backtoshop{
+	display: flex;
+    margin: 2em 0px 13px 0px;
+    font-size: 16px;
+    line-height: 1em;
+}
+#product #backtoshop a{
+	color: inherit;
+    text-decoration: none;
+    vertical-align: middle;
+	padding: 5px 5px;
+	text-transform: uppercase;
+}
+#product #backtoshop a:hover{
+	color: #CCCCCC;
+}
+.detail-wapper-info {
+	border-bottom: 2px solid #FF33FF;
+	display: flex;
+}
+.detail-left-img {
+	width: 60%;
+	display: block;
+}
+.detail-left-big-img {
+	width: 80%;
+	padding-right: 20px;
+}
+.detail-left-big-img img{
+	width: 100%;
+}
+.detail-right-info {
+	width: 40%;
+	padding-left: 20px;
+	display: block;
+}
+.detail-right-info{
+}
+.detail-right-info-name h1{
+	color: blue;
+    text-decoration: none;
+    vertical-align: middle;
+	padding: 5px 5px;
+	text-transform: uppercase;
+}
+.detail-right-info-price p{
+	font-size: 18px;
+	color: red;
+}
+.detail-right-info-price p span{
+	color: #191919;
+	padding-left: 16px;
+	font-size: 14px;
+	text-decoration: line-through;
+}
+.detail-right-info-size{
+	padding: 10px 0px;
+	font-size: 20px
+}
+.select-size{
+	display: flex;
+	margin-top: 10px;
+}
+.info-size{
+	margin-right: 20px;
+}
+/* Số lượng*/
+.selector-actions{
+	width: 100%;
+    float: left;
+    margin-top: 15px;
+}
+.quantity-area{
+	margin-bottom: 20px;
+}
+.quantity-area input#quantity {
+    background: #fff;
+	font-weight: 600;
+    height: 32px;
+    padding: 0;
+    text-align: center;
+    width: 150px;
+    float: left;
+    -webkit-appearance: none;
+}
+/*thêm vào giỏ*/
+.wrap-addcart button{
+	position: relative;
+	display: inline-block;
+	margin: 5px 0px;
+	text-transform: uppercase;
+	text-align: center;
+    letter-spacing: 1px;
+	cursor: pointer;
+}
+button.buy-now, button.btn-addtocart {
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: none;
+    padding: 14px15px;
+    line-height: 40px;
+    width: 100%;
+}
+#add-to-cart {
+    color: #000;
+}
+#buy-now {
+    background-color: #000;
+    color: #fff;
+}
+/* thông tin*/
+.description-content{
+    margin: 25px 0px;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #ff66ff;
+}
+.splienquan h1{
+	font-size: 20px;
+	text-transform: uppercase;
+}
